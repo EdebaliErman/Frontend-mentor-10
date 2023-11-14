@@ -1,4 +1,3 @@
-import './App.css';
 import Banner from './Components/Banner/Banner';
 import Card from './Components/Cards/Card';
 import StarBar from './Components/StarBar/StarBar';

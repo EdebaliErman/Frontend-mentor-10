@@ -3,14 +3,19 @@
 @layer components{
     .banner{
         @apply w-1/2 flex flex-col gap-3
+        sm:w-full sm:text-center
         
     }
     .banner h1{
         @apply text-6xl pr-96 text-main font-medium font-sans text-left
+        2xl:pr-0 2xl:text-center 
         xl:pr-0 xl:text-center
+        sm:text-6xl sm:pr-0 sm:text-center
     }
     .banner p{
-        @apply text-2xl pr-[12rem] mt-3 text-left text-main opacity-90 font-normal font-sans
+        @apply text-2xl pr-[12rem] m-4 text-left text-main opacity-90 font-normal font-sans
+        2xl:pr-0 2xl:text-center 2xl:m-4 2xl:mb-12
         xl:pr-0 xl:text-center
+        sm:text-2xl sm:p-0
     }
 }

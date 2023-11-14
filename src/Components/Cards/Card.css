@@ -1,0 +1,28 @@
+@tailwind components;
+
+@layer components {
+    .card {
+        @apply w-[400px] gap-8 p-12 m-4 rounded-lg bg-main text-white flex flex-col justify-center items-start
+        sm:m-0 sm:gap-0
+    }
+
+    .user {
+        @apply flex justify-center items-center gap-4
+    }
+
+    .user img {
+        @apply rounded-full w-12
+    }
+    .user-bar{
+        @apply text-lg font-medium text-left
+    }
+    .user-bar h2{
+        @apply text-stat
+    }
+    .card p{
+        @apply font-bold font-sans
+    }
+    .mt-2,.mt-12,.mt-24{
+        @apply sm:m-3
+    }
+}

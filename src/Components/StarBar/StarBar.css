@@ -1,0 +1,17 @@
+@tailwind components;
+
+@layer components {
+    .starbar {
+        @apply flex flex-col justify-start items-center
+    }
+    .starbar span{
+        @apply flex gap-2
+    }
+    .starbar div{
+        @apply sm:m-0
+    }
+    .starbar .bar{
+        @apply flex flex-wrap justify-between w-[450px] font-bold text-main text-xl items-center m-4 py-4 p-3 gap-4 bg-starBack rounded-xl
+        sm:ml-0 sm:flex-col sm:w-72 sm:text-center
+    }
+}
