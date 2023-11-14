@@ -12,6 +12,7 @@
     }
     .starbar .bar{
         @apply flex flex-wrap justify-between w-[450px] font-bold text-main text-xl items-center m-4 py-4 p-3 gap-4 bg-starBack rounded-xl
-        sm:ml-0 sm:flex-col sm:w-72 sm:text-center
+        sm:ml-0 sm:flex-col sm:w-80 sm:text-center
+        md:w-96
     }
 }
