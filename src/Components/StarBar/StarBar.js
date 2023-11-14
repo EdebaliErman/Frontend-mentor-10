@@ -3,7 +3,7 @@ import { icons } from '../../Data/data'
 
 function StarBar() {
     return (
-        <div className='flex flex-col justify-start items-center w-1/2' >
+        <div className='flex flex-col justify-start items-center w-1/2 ' >
             <Bar prop={"Reviews"} name={"ml-[-4rem]"}/>
             <Bar prop={"Report Guru"} name={"ml-[4rem]"}/>
             <Bar prop={"BestTech"} name={"ml-[8rem]"} />
@@ -23,7 +23,7 @@ const Stars = () => {
 
 const Bar = ({ prop,name }) => {
     return (
-        <div className={`flex justify-between w-96 items-center m-4 p-4 gap-4 bg-starBack rounded-xl ${name}`}>
+        <div className={`flex justify-between w-[450px] font-bold text-main text-xl items-center m-4 py-4 p-3 gap-4 bg-starBack rounded-xl ${name}`}>
             <Stars /> Rated 5 Stars in {prop}
         </div>
     )
