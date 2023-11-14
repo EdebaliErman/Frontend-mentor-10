@@ -1,2 +1,1 @@
-<img src="chrome-extension://fdpohaocaechififmbbbbbknoalclacl/capture.html?id=4&url=http%3A%2F%2Flocalhost%3A3000%2F" alt="no.png">
-<img src="chrome-extension://fdpohaocaechififmbbbbbknoalclacl/capture.html?id=5&url=http%3A%2F%2Flocalhost%3A3000%2F" alt="no.png">
+<img src="![Alt text](public/Assets/screencapture-localhost-3000-2023-11-14-23_19_03.png)" alt="no.png">
