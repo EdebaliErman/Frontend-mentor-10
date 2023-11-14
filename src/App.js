@@ -2,6 +2,7 @@ import './App.css';
 import Banner from './Components/Banner/Banner';
 import Card from './Components/Cards/Card';
 import StarBar from './Components/StarBar/StarBar';
+import { user } from './Data/data';
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
         <Banner />
         <StarBar />
       </div>
-      <Card />
+      {user.map((item,key) => <Card key={key}  item={item} />)}
     </div>
   );
 }
