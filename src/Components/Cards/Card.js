@@ -2,7 +2,7 @@ import React from 'react'
 
 function Card({ item }) {
     return (
-        <div className='w-[400px] gap-12 p-12 m-4 rounded-lg bg-main text-white flex flex-col justify-center items-start'>
+        <div className={`w-[400px] gap-8 p-12 m-4 rounded-lg bg-main text-white flex flex-col justify-center items-start ${item.mt}`}>
             <div className='flex justify-center items-center gap-4'>
                 <img 
                 className='rounded-full w-12'
@@ -13,7 +13,7 @@ function Card({ item }) {
                     <h2 className='text-stat'>{item.stat}</h2>
                 </div>
             </div>
-            <p className='font-normal'>" {item.comment} "</p>
+            <p className='font-bold font-sans'>" {item.comment} "</p>
         </div>
     )
 }

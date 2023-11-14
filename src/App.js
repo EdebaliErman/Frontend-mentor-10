@@ -7,11 +7,13 @@ import { user } from './Data/data';
 function App() {
   return (
     <div className="App">
-      <div className='flex justify-around items-center m-12'>
+      <div className='flex  justify-around items-center m-12 flex-wrap'>
         <Banner />
         <StarBar />
       </div>
-      {user.map((item,key) => <Card key={key}  item={item} />)}
+      <div className='flex justify-center items-center flex-wrap'>
+        {user.map((item, key) => <Card key={key} item={item} />)}
+      </div>
     </div>
   );
 }

@@ -3,7 +3,7 @@ import { icons } from '../../Data/data'
 
 function StarBar() {
     return (
-        <div className='flex flex-col justify-start items-center w-1/2 ' >
+        <div className='flex flex-col justify-start items-center  ' >
             <Bar prop={"Reviews"} name={"ml-[-4rem]"}/>
             <Bar prop={"Report Guru"} name={"ml-[4rem]"}/>
             <Bar prop={"BestTech"} name={"ml-[8rem]"} />

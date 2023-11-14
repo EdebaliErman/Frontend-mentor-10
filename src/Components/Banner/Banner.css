@@ -1,0 +1,13 @@
+@tailwind components;
+
+@layer components{
+    .banner{
+        @apply w-1/2 flex flex-col gap-3
+    }
+    .banner h1{
+        @apply text-6xl pr-96 text-main font-medium font-sans text-left
+    }
+    .banner p{
+        @apply text-2xl pr-[12rem] mt-3 text-left text-main opacity-90 font-normal font-sans
+    }
+}
