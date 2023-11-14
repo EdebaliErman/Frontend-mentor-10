@@ -5,7 +5,8 @@ module.exports = {
     extend: {
       colors:{
         main:"#511f50",
-        stat:"#c3639b"
+        stat:"#c3639b",
+        starBack:"#f7f2f8"
       }
     },
   },

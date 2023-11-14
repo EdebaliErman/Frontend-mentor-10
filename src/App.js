@@ -6,8 +6,10 @@ import StarBar from './Components/StarBar/StarBar';
 function App() {
   return (
     <div className="App">
-      <Banner />
-      <StarBar />
+      <div className='flex justify-around items-center m-12'>
+        <Banner />
+        <StarBar />
+      </div>
       <Card />
     </div>
   );
